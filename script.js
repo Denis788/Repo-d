@@ -59,7 +59,7 @@ function stop(){
 function gameOver () {
   out.style.border = "";
   out.innerHTML = "loots: 0";
-  dino.style.background = 'background-image';
+  dino.style.backgroundImage = 'https://denis788.github.io/Repo-d/img/dino.png';
   alert('Game Over\nYour loots: ' + loots);
   loots = 0;
 }
