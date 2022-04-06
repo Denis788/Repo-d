@@ -40,7 +40,7 @@
 #cactus {
   width: 20px;
   height: 40px;
-  background: radial-gradient(green, black);
+  background-image: url("https://denis788.github.io/Repo-d/img/cactus.png)";
   background-size: 20px 40px;
   position: relative;
   top: 110px;
