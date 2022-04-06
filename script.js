@@ -59,7 +59,7 @@ function stop(){
 function gameOver () {
   out.style.border = "";
   out.innerHTML = "loots: 0";
-  dino.style.background = 'radial-gradient(black, black)';
+  dino.style.background = 'background-image';
   alert('Game Over\nYour loots: ' + loots);
   loots = 0;
 }
