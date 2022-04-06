@@ -1,2 +1,2 @@
-# RepositoryD
-# https://denis788.github.io/Repo-d/
+# flpdck
+lohkickstart team repo for flpdck
