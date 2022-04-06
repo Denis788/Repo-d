@@ -86,7 +86,7 @@ function lootCount (val) {
 function reward (count){
   if(loots == count[0]) {
     out.style.border='groove';
-    dino.style.background = 'radial-gradient(#E664C7, black)';
+    dino.style.backgroundImage = "url('https://denis788.github.io/Repo-d/img/dino_1.png')";
   }
   if(loots == count[1]) {
     out.style.border='double';
