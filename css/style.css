@@ -45,8 +45,8 @@
   position: relative;
   top: 110px;
   left: 580px;
-  animation: cactusMov 1.5s infinite;
-  animation-timing-function: cubic-bezier(0.5,0.5,0.7,0.5);
+  animation: cactusMov 1.5s infinite linear;
+  
 }
 @keyframes cactusMov {
   0% {
