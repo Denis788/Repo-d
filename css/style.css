@@ -2,55 +2,78 @@
     width: 600px;
     height: 200px;
     border-bottom: 1px solid #000;
-    margin:auto;
-    }
-
+    margin: auto;
+}
+#cont{
+  width:50%;
+  display: flex;
+  margin: 0 auto;
+}
+#diff{
+  top: 30px;
+  background: green;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#btn{
+  width: 55px;
+  top: 30px;
+  background: green;
+  right: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#out{
+  top: 30px;
+  color: green;
+  margin: 0 auto;
+  border-radius: 5px;
+}
 #dino {
-    width: 50px;
-    height: 50px;
-    background-image: url(img/dino.png);
-    background-size: 50px 50px;
-    position: relative;
-    top: 150px;
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(white, black);
+  background-size: 50px 50px;
+  border-radius: 30px;
+  position: relative;
+  top: 150px;
 }
-
 #cactus {
-    width: 20px;
-    height: 40px;
-    background-image: url(img/cactus.png);
-    background-size: 20px 40px;
-    position: relative;
-    top: 110px;
-    left: 580px;
-    animation: cactusMov 1.5s infinite linear;
+  width: 20px;
+  height: 40px;
+  background: radial-gradient(green, black);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+  animation: cactusMov 1.5s infinite;
+  animation-timing-function: cubic-bezier(0.5,0.5,0.7,0.5);
 }
-
 @keyframes cactusMov {
-    0% {
-        left: 580px;
-    }
-    100% {
-        left: -20px;
-    }
+  0% {
+      left: 580px;
+  }
+  100% {
+      left: -20px;
+  }
 }
-
 .jump {
-    animation: jump 0.3s linear;
+  animation: jump 0.3s linear;
 }
 @keyframes jump {
-    0% {
-        top: 150px;
-    }
-    30% {
-        top: 130px;
-    }
-    50% {
-        top: 80px;
-    }
-    80% {
-        top: 130px;
-    }
-    100% {
-        top: 150px;
-    }
+  0% {
+      top: 150px;
+  }
+  20% {
+      top: 130px;
+  }
+  50% {
+      top: 80px;
+  }
+  80% {
+      top: 130px;
+  }
+  100% {
+      top: 150px;
+  }
 }
