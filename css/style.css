@@ -32,9 +32,8 @@
 #dino {
   width: 50px;
   height: 50px;
-  background: radial-gradient(white, black);
+  background-image: url(img/dino.png);
   background-size: 50px 50px;
-  border-radius: 30px;
   position: relative;
   top: 150px;
 }
