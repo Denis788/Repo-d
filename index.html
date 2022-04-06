@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-<div class="game">
-    <div id="dino"></div>
-    <div id="cactus"></div>
-</div>
+<html>
+<head>
+    <title>dino rex game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
-        <script src="script.js"></script>
-    </body>
+    <div id= "cont">
+      <select size="1" id="diff">
+        <option value="1" selected>easy</option>
+        <option value="2" >midle</option>
+        <option value="5" >hard</option>
+      </select>
+      <div id="out">loots: 0</div>      
+      <input id="btn" type="button" value="Stop">
+    </div>
+    
+    <div class="game">
+      <div id="dino"></div>
+      <div id="cactus"></div>
+    </div>
+    
+    <script type="text/javascript" src="dino.js"></script>
+</body>
 </html>
